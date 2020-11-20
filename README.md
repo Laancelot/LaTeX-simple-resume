@@ -12,9 +12,12 @@ Happy coding and please let me know any comment - welcoming any input!
 ## Images license - additional information
 Location logo:
 By Font Awesome by Dave Gandy - https://fortawesome.github.com/Font-Awesome, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24231355
+
 Email logo:
 Google Inc., CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons
+
 Signal logo:
 "Signal’s Rights. We own all copyrights, trademarks, domains, logos, trade dress, trade secrets, patents, and other intellectual property rights associated with our Services."
+
 GitHub logo:
 https://github.com/logos
