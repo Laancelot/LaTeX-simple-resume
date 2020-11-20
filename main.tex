@@ -1,0 +1,182 @@
+% This document is a simple resume outline.
+% Fill necessary details according to template, comments and/or example
+%
+% Author: Laancelot
+% https://github.com/Laancelot
+%
+% License information
+%
+%
+\documentclass[12pt]{article}
+%
+% import packages and define location of images
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[hidelinks]{hyperref}
+\usepackage{calc}
+\usepackage{enumitem}
+\usepackage[]{microtype}
+\usepackage[dvipsnames]{xcolor}
+\graphicspath{ {./img/} } % change the name of the images folder here if you choose something else
+%
+% not published as per commented \maketitle below
+%\title{Resume}
+%\author{FirstName LastName}
+%\date{November 2020} %insert current data
+%
+% change the default margins
+\addtolength{\oddsidemargin}{-1in}
+\addtolength{\evensidemargin}{-1in}
+\addtolength{\textwidth}{2in}
+\addtolength{\topmargin}{-1in}
+\addtolength{\textheight}{2in}
+%
+\begin{document}
+%
+%\maketitle
+%
+% FIRST PAGE
+%
+% TITLE SECTION
+%
+% start first column of title section
+\noindent
+\begin{minipage}[t]{0.66\textwidth}
+\section*{\LARGE FirstName LastName}
+\begin{LARGE}
+Job title\\
+\end{LARGE}
+\end{minipage}
+\hfill
+% start second column of the title section
+\begin{minipage}[t]{0.33\textwidth}
+\includegraphics[height=0.3cm]{map} Location\\
+\includegraphics[height=0.3cm]{github} \href{https://github.com/MyProfile}{\underline{github.com/MyProfile}\\
+\includegraphics[height=0.3cm]{signal} +XXX XXX XXX on Signal\\ %you can remove the Signal mention if you don't use it
+\includegraphics[height=0.25cm]{mail}} \href{mailto:men@tutanota.com}{\underline{me@tutanota.com}}\\
+\end{minipage}
+% remove excess vertical space
+\vspace*{-0.5cm}
+%
+% SUMMARY SECTION
+%
+\begin{itemize}
+    \item A blurb summarizing how awesome you are, in three bullets [or two, or four]
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
+\end{itemize}
+% remove excess vertical space
+\vspace*{-0.8cm}
+%
+% EDUCATION SECTION
+%
+\section*{Education \& awards} % You can change the section name if you wish
+\begin{description}[leftmargin=!,labelwidth=2cm]
+  \item[20xx] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+  \item[20xx] Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+\end{description}
+%
+% MOOCS SECTION
+%
+\noindent
+% start the first column
+\begin{minipage}[t]{0.29\textwidth}
+\section*{MOOCs\\ \& online\\ certifications} % you can rename that section and use it for something else if you're not into MOOCs
+\begin{description}[leftmargin=!,labelwidth=2cm]
+  \item[mm YY] [Provider] Name of MOOC
+  \item[mm YY] [Provider] Name of MOOC
+  \item[mm YY] [Provider] Name of MOOC
+  \item[mm YY] [Provider] Name of MOOC
+  \item[mm YY] [Provider] Name of MOOC
+  \item[mm YY] [Provider] Name of MOOC
+\end{description}
+\end{minipage}
+\hfill
+%
+% PROFESSIONAL EXPERIENCE 1 SECTION
+%
+% start the second column
+\begin{minipage}[t]{0.68\textwidth}
+\section*{Professional experience}
+\begin{description}[leftmargin=!,labelwidth=2.7cm]
+  \item[\protect{\parbox[t]{2.7cm}{20xx - }}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\medskip\\Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\medskip\\Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur}}
+  \item[\protect{\parbox[t]{2.7cm}{20xx - 20xx}}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\medskip\\Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat}}
+\end{description}
+\end{minipage}
+%
+% SECOND PAGE
+\newpage
+%
+% SKILLS SECTION
+%
+\noindent
+% start the first column
+\begin{minipage}[t]{0.29\textwidth}
+\section*{Key skills}
+% remove excess vertical space
+\vspace*{-0.1cm}
+\begin{itemize}
+    \item Category
+\end{itemize}
+% remove excess vertical space
+\vspace*{-0.7cm}
+\begin{description}[leftmargin=!,labelwidth=2.5cm]
+     \item[Area]       Level
+     \item[Area]       Level
+     \item[Area]       Level
+     \item[Area]       Level
+     \item[Area]       Level
+     \item[Area]       Level
+\end{description}
+% remove excess vertical space
+\vspace*{-0.7cm}
+\begin{itemize}
+    \item Category
+\end{itemize}
+% remove excess vertical space
+\vspace*{-0.2cm}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\medskip\\Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+% remove excess vertical space
+\vspace*{-0.5cm}
+%
+% LANGUAGES SECTION
+%
+\section*{Languages spoken}
+\begin{description}[leftmargin=!,labelwidth=2.5cm]
+  \item[Language]   Level
+  \item[Language]   Level
+  \item[Language]   Level
+  \item[Language]   Level
+\end{description}
+% remove excess vertical space
+\vspace*{-0.8cm}
+%
+% INTERESTS SECTION
+%
+\section*{Interests}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\medskip\\Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna\medskip\\Lorem ipsum dolor sit amet, consectetur adipiscing elit\medskip\\Sed do eiusmod tempor incididunt ut labore et dolore
+\end{minipage}
+% ensure there's space between columns
+\hfill
+%
+% PROFESSIONAL EXPERIENCE - CONTINUED - SECTION
+%
+% start the second column
+\begin{minipage}[t]{0.68\textwidth}
+\section*{Professional experience (cont'd)}
+\begin{description}
+  \item[\protect{\parbox[t]{2.7cm}{20xx - 20xx}}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\medskip\\Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\medskip\\Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur}}
+  \item[\protect{\parbox[t]{2.7cm}{20xx - 20xx}}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\medskip\\Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\medskip\\Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur\medskip\\Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
+  \item[\protect{\parbox[t]{2.7cm}{20xx - 20xx}}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat\medskip\\Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum}}
+  \item[\protect{\parbox[t]{2.7cm}{20xx - 20xx}}] \protect{\parbox[t]{9.3cm}{\emph{job title} - Company Name}}
+  \item[\protect{\parbox[t]{2.7cm}{Location}}] \protect{\parbox[t]{9.3cm}{Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua\medskip\\Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat}}
+\end{description}
+\end{minipage}
+%
+% end of document
+\end{document}
