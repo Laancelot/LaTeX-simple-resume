@@ -2,15 +2,16 @@
 A simple, two-pages resume template anyone can use for a clean result
 
 ## How-to, quick and to the point
-The most straightforward way to use this template is to copy the main file and the images folder (named "img", and its contents), upload all of that to Overleaf, the online LaTeX editor, and edit the relevant sections, then export to PDF. Ta-da!
+The most straightforward way to use this template is to download the repo, upload all of that to Overleaf, the online LaTeX editor, and edit the relevant sections of the main file, then export to PDF. Ta-da!
 
-Note: beforehand, you may want to check the example output to see if you like it!
+Note: beforehand, you may want to check the example (pdf) output to see if you like it!
 
 ## Additional notes
 This resume is clean and functional - however my use of LaTeX isn't optimised; I'm hoping to improve that at some point. I'd love to hear from LaTeX experts!
 
 Happy coding and please let me know any comment - welcoming any input!
 
+## License - see file
 ## Images license - additional information
 Location logo:
 By Font Awesome by Dave Gandy - https://fortawesome.github.com/Font-Awesome, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=24231355
